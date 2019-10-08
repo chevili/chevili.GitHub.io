@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        #head{
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #head {
             height: 100px;
             background: linear-gradient(to right, red, skyblue, gold, purple);
+            overflow: hidden;
+            line-height: 100px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
         }
-        h1{
+
+        h1 {
+            height: 100px;
             text-align: center;
             line-height: 50px;
         }
+
+        table {
+            border: 1px solid black;
+        }
+
     </style>
 </head>
+
 <body>
     <div id="head">
+        我是小方的小杜的小可爱
+    </div>
+    <div id="bodys">
         <h1>
-            我是小方的小杜的小可爱
+            小杜和小方的回忆
         </h1>
+        <table>
+            <tr id="title">
+                <th>序号</th>
+                <th>事件</th>
+                <th>地点</th>
+                <th>照片</th>
+            </tr>
+
+        </table>
     </div>
 </body>
+
 </html>
